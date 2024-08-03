@@ -13,6 +13,6 @@ connectDB();
 // External routes
 clawApp.use("/todos", todosRoute);
 
-clawApp.listen(process.env.PORT, function () {
-  console.log(`Claw App Listening on Port Number: ${process.env.PORT}`);
+clawApp.listen(9000, function () {
+  console.log(`Claw App Listening on Port Number: 9000`);
 });
